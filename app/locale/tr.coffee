@@ -57,9 +57,9 @@ module.exports = nativeDescription: "Türkçe", englishDescription: "Turkish", t
     confirm: "Devam et"
     owned: "Sahipsin" # For items you own
     locked: "Kilitli"
-#    purchasable: "Purchasable" # For a hero you unlocked but haven't purchased
+    purchasable: "Satın alınabilir" # For a hero you unlocked but haven't purchased
     available: "Açık"
-#    skills_granted: "Skills Granted" # Property documentation details
+    skills_granted: "Kazanılan yetenekler" # Property documentation details
     heroes: "Kahramanlar" # Tooltip on hero shop button from /play
     achievements: "Başarımlar" # Tooltip on achievement list button from /play
     account: "Hesap" # Tooltip on account button from /play
@@ -69,7 +69,7 @@ module.exports = nativeDescription: "Türkçe", englishDescription: "Turkish", t
     choose_inventory: "Ögeleri Giy"
     buy_gems: "Taş satın a"
 #    subscription_required: "Subscription Required"
-#    free: "Free"
+    free: "Ücretsiz"
 #    subscribed: "Subscribed"
     older_campaigns: "Daha Eski Görevler"
     anonymous: "Anonim Oyuncu"
@@ -78,7 +78,7 @@ module.exports = nativeDescription: "Türkçe", englishDescription: "Turkish", t
 #    awaiting_levels_adventurer_prefix: "We release five levels per week."
     awaiting_levels_adventurer: "Maceracı olmak için kayıt ol"
 #    awaiting_levels_adventurer_suffix: "to be the first to play new levels."
-#    adjust_volume: "Adjust volume"
+    adjust_volume: "Sesi ayarla"
     choose_your_level: "Seviye Seçimi" # The rest of this section is the old play view at /play-old and isn't very important.
     adventurer_prefix: "Aşağıdaki seviyelerden birini doğrudan oynayabilirsiniz, veya seviye ile ilgili "
     adventurer_forum: "Maceracı forumunda"
@@ -96,27 +96,27 @@ module.exports = nativeDescription: "Türkçe", englishDescription: "Turkish", t
 
 #  share_progress_modal:
 #    blurb: "You’re making great progress! Tell someone how much you've learned with CodeCombat."
-#    email_invalid: "Email address invalid."
+    email_invalid: "E-posta adresi geçersiz."
 #    form_blurb: "Enter their email below and we’ll show them!"
-#    form_label: "Email Address"
-#    placeholder: "email address"
+    form_label: "E-posta Adresi"
+    placeholder: "eposta adresi"
 #    title: "Excellent Work, Apprentice"
-#    tell_friend: "Tell your Friend"
-#    tell_parent: "Tell your Parent"
+    tell_friend: "Arkadaşına söyle"
+    tell_parent: "Anne-babana söyle"
 
   login:
     sign_up: "Hesap Oluştur"
     log_in: "Giriş Yap"
     logging_in: "Giriş Yapılıyor"
     log_out: "Çıkış Yap"
-#    forgot_password: "Forgot your password?"
-#    authenticate_gplus: "Authenticate G+"
-#    load_profile: "Load G+ Profile"
-#    load_email: "Load G+ Email"
-#    finishing: "Finishing"
-#    sign_in_with_facebook: "Sign in with Facebook"
-#    sign_in_with_gplus: "Sign in with G+"
-#    signup_switch: "Want to create an account?"
+    forgot_password: "Şifreni mi unuttun?"
+    authenticate_gplus: "G+ ile giriş yap"
+    load_profile: "G+ Profili yükle"
+    load_email: "G+ E-posta yükle"
+    finishing: "Sonlandırılıyor"
+    sign_in_with_facebook: "Facebook ile giriş yap"
+    sign_in_with_gplus: "G+ ile giriş yap"
+    signup_switch: "Hesap oluşturmak istiyor musun?"
 
   signup:
     email_announcements: "E-posta duyurularını almak istiyorum"
